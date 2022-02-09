@@ -1,0 +1,206 @@
+body{
+    font-family: 'Open Sans Regular', sans-serif;
+    font-size: 15px;
+    color: black;
+    padding: 0;
+    margin: 0;
+    background: white;
+}
+.h1{
+    font-size: 45px; 
+    font-family: "Ubuntu Bold", sans-serif;
+    margin: 0; 
+    text-shadow: 1px 1px 3px black;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.uj{
+    background: linear-gradient(132deg, #ec5218, #1665c1);
+    background-size: 400% 400%;
+    animation: BackgroundGradient 30s ease infinite;
+}
+@keyframes BackgroundGradient {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+
+div, p, input, button, form, span, a, ul, li, ol{
+    box-sizing: border-box;
+}
+.jh{
+    margin-top: 50px;
+    box-shadow: 0px 5px 15px 5px black;
+}
+
+.uw{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.text0{
+    text-shadow: 1px 1px 3px black;
+}
+.hf{
+    margin: 0;
+}
+.cont{
+    margin: 0 auto; 
+}
+.text0{
+    width: 700px;
+    font-size: 25px;
+}
+h2,h3,h4,h5,h6{
+    font-family: "Ubuntu Bold", sans-serif;
+    margin: 0;
+    text-shadow: 1px 1px 2px black;
+}
+.yh{
+    background: #ecf2f8;
+    padding-bottom: 5px;
+}
+.hg{
+    text-shadow: 1px 1px 2px black;
+}
+
+.hei1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+} 
+.container{
+    width: 1172px;
+    margin: 0 auto;   
+}
+.df{
+    font-size: 17px;
+}
+li{
+    list-style-type: none;
+}
+ul{
+    margin-left: 0; 
+    padding-left: 0;
+}
+.ul{
+    margin-left: 20px;
+}
+.dfv{
+    width: 325px;
+}
+.link{
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.ju{
+    color: black;
+}
+.ua{
+    padding-bottom: 50px;
+}
+.gio, .op, .soc{
+    display: flex;
+}
+
+.api{
+    padding: 50px 0;
+}
+
+.h{
+   padding-top: 100px;
+   padding-bottom: 50px;
+}
+.tgh{
+    SameSite: none;
+    justify-content: space-between;
+}
+.icons8, {  
+    SameSite: none;
+    justify-content: space-between;
+}
+
+.vk, .inst, .watsapp, .facebook{
+    width: 30px;
+}
+.s{
+    padding-top: 50px;
+    margin: 0;
+}
+.tt{
+    margin-top: 10px;
+}
+
+.tg{
+    padding-left: 10px;
+}
+ 
+ .rf{
+    text-align:center;
+ }
+ .fv{
+    padding-bottom: 10px;
+ }
+
+ .ui{
+    margin: 0;
+    width: 700px;
+    padding-right: 0;
+ }
+
+
+
+@media screen and (max-width: 1200px){
+    .container{
+        width: 960px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .container{
+        width: 720px;
+    }
+    .wrapper{
+        flex-direction: column;
+    }
+    .ofer{
+        width: auto;
+    }
+    .gio{
+        width: auto;
+    }
+    body{
+        background: #ecf2f8;
+    }
+    .uj{
+        width: auto;
+    }
+    .text0{
+        width: auto;
+    }
+    .jh{
+        display: block;
+        width:250px;
+        margin: 72px auto;
+    }
+
+
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        width: 540px;
+    }
+    .jh{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .container{
+        width: 90%;
+    }
+}
